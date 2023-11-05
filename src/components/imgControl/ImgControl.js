@@ -28,7 +28,7 @@ function ImgControl({ image, isSelected, onImageSelect, onReorder, index }) {
 
   return (
     <div
-      className={`relative border rounded-xl border-gray-300 d-flex align-items-center justify-content-center cursor-pointer ${
+      className={`relative rounded-sm border-gray-300 d-flex align-items-center justify-content-center cursor-pointer ${
         index === 0 ? "h-md-25rem" : "h-md-48"
       }`}
       onMouseEnter={() => setIsHovered(true)}
