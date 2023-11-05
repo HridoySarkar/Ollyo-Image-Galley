@@ -1,0 +1,124 @@
+/* Apply Bootstrap utility classes */
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-md-5 {
+    margin-bottom: 3rem;
+  }
+  
+  .align-items-center {
+    align-items: center !important;
+  }
+  
+  .h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .my-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .my-md-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .form-check-input {
+    position: relative;
+    margin-left: -1.25rem;
+    margin-right: .25rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    vertical-align: top;
+  }
+  
+  .btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+  }
+  
+
+  .margin-left{
+    margin-left: 25px;
+  }
+
+
+
+  /* Header.css */
+
+/* Style for the checkbox container */
+.checkbox-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the checkbox */
+.checkbox-container input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* Hide the default checkbox */
+  width: 16px; /* Adjust the width as needed */
+  height: 16px; /* Adjust the height as needed */
+  margin: 0;
+  z-index: 1;
+}/* Header.css */
+
+/* Style for the custom checkbox */
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid #000; /* Customize the border as needed */
+}
+
+/* Style for the overlay when the checkbox is checked */
+.custom-checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity as needed */
+  z-index: 1;
+}
