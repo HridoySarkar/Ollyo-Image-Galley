@@ -88,6 +88,8 @@
 }
 
 .hovered-overlay {
+  background: #4d4d4d;
+  opacity: 0.3;
 }
 
 .position-md-absolute {
