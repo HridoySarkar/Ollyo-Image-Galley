@@ -5,7 +5,7 @@ function Header({ selectedImages, handleDelete }) {
   const isAnyImageSelected = selectedImages.length > 0;
 
   return (
-    <nav className="border-bottom  mb-3 mb-md-5">
+    <nav className="border-bottom  mb-3 mb-md-3">
       <div className="Container margin-left mt-3">
         <div className="row d-flex justify-content-between">
           <div className="col-8 col-md-9">
